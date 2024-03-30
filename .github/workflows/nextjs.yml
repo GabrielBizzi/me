@@ -71,6 +71,12 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
+      - name: Create env file
+        run: |
+          touch .env.local
+          echo NEXT_PUBLIC_GITHUB_USERNAME="GabrielBizzi" >> .env.local
+          echo GITHUB_API_KEY=${{ secret_key.KEY }} >> .env.local
+          cat .env.local
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
