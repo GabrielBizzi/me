@@ -74,9 +74,12 @@ jobs:
       - name: Create env file
         run: |
           touch .env.local
-          echo NEXT_PUBLIC_GITHUB_USERNAME="GabrielBizzi" >> .env.local
-          echo GITHUB_API_KEY=${{ secret_key.KEY }} >> .env.local
+          echo GITHUB_API_KEY=${GITHUB_API_KEY} >> .env.local
+          echo NEXT_PUBLIC_GITHUB_USERNAME=${NEXT_PUBLIC_GITHUB_USERNAME} >> .env.local
           cat .env.local
+        env: 
+          GITHUB_API_KEY: ${{ secret_key.KEY }} 
+          NEXT_PUBLIC_GITHUB_USERNAME: GabrielBizzi 
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
