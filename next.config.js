@@ -7,4 +7,5 @@ module.exports = {
       "media.licdn.com",
     ],
   },
+  target: "serverless",
 };
