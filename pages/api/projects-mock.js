@@ -18,7 +18,6 @@ export const mock = [
       "Project developed for testing voice recognition mapped to perform functions in the operating system",
     tags: ["python"],
     source_code: "https://github.com/GabrielBizzi/natural-voice-recogniter",
-    demo: "https://github.com/GabrielBizzi/natural-voice-recogniter",
   },
   {
     id: 3,
@@ -27,8 +26,7 @@ export const mock = [
       "https://media.licdn.com/dms/image/sync/D4D27AQGFhU9dw10FrA/articleshare-shrink_800/0/1711042456484?e=1712368800&v=beta&t=IFLzjY3Rj2IMFoPPQVxfv4zDFDovrL1knCkbHOcxYdQ",
     description: "A project developed to extract text from images",
     tags: ["javascript"],
-    source_code: "https://github.com/itsnitinr/healthyways",
-    demo: "https://healthyways.herokuapp.com/",
+    source_code: "https://github.com/GabrielBizzi/crop-image-from-text",
   },
   {
     id: 4,
@@ -39,7 +37,6 @@ export const mock = [
       "CLI development using NodejS and Typescript, with integration of Koda AI resources",
     tags: ["typescript", "node", "javascript"],
     source_code: "https://github.com/GabrielBizzi/koda-cli",
-    demo: "https://github.com/GabrielBizzi/koda-cli",
   },
   {
     id: 5,
@@ -50,7 +47,6 @@ export const mock = [
       "Development of a CLI to search and create content in ABNT format using natural language",
     tags: ["node", "javascript"],
     source_code: "https://github.com/GabrielBizzi/ghost-writer",
-    demo: "https://github.com/GabrielBizzi/ghost-writer",
   },
   {
     id: 6,
@@ -62,7 +58,6 @@ export const mock = [
     tags: ["node", "javascript", "typescript"],
     source_code:
       "https://github.com/GabrielBizzi/template-react-typescript-solid",
-    demo: "https://github.com/GabrielBizzi/template-react-typescript-solid",
   },
   {
     id: 7,
@@ -74,7 +69,6 @@ export const mock = [
     tags: ["node", "javascript", "typescript"],
     source_code:
       "https://github.com/GabrielBizzi/template-react-typescript-solid",
-    demo: "https://github.com/GabrielBizzi/template-react-typescript-solid",
   },
   {
     id: 8,
