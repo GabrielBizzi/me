@@ -1,14 +1,8 @@
-function Illustration(props) {
-  return (
-    <svg
-      width={800}
-      height={800}
-      viewBox="0 0 512 512"
-      fill="#f9826c"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
-     <g>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 512 512" xml:space="preserve">
+<g>
 	<g>
 		<path d="M510.855,355.115L333.625,20.347c-1.692-3.197-5-5.207-8.615-5.24c-3.154,0.005-6.952,1.918-8.702,5.082l-61.49,111.149
 			L195.77,20.16c-1.711-3.212-5.048-5.39-8.692-5.39h-0.01c-3.644,0-6.99,2.188-8.692,5.409L1.145,355.031
@@ -21,8 +15,4 @@ function Illustration(props) {
 			c3.452,0,6.654-1.639,8.433-4.601C512.374,361.673,512.47,358.168,510.855,355.115z"/>
 	</g>
 </g>
-    </svg>
-  );
-}
-
-export default Illustration;
+</svg>

@@ -1,7 +1,7 @@
-import data from './projects.json';
+import { mock } from "./projects-mock";
 
 export const getProjects = () => {
-  return data;
+  return mock;
 };
 
 export default (req, res) => {

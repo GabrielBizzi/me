@@ -19,6 +19,23 @@
 .node {
   border: 0.1rem solid rgb(131, 205, 41);
 }
+
+.python {
+  border: 0.1rem solid rgb(131, 205, 41);
+}
+
+.python:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+
+.javascript {
+  border: 0.1rem solid rgb(229, 236, 29);
+}
+
+.javascript:hover {
+  background: rgba(229, 236, 29, 0.25);
+}
+
 .node:hover {
   background: rgba(131, 205, 41, 0.25);
 }
@@ -65,6 +82,13 @@
   background: rgba(0, 112, 243, 0.25);
 }
 
+.typescript {
+  border: 2px solid rgb(0, 112, 243);
+}
+.typescript:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+
 .tailwind {
   border: 2px solid rgb(6, 182, 212);
 }
@@ -76,6 +100,13 @@
   border: 2px solid rgb(255, 65, 84);
 }
 .react-query:hover {
+  background: rgba(255, 65, 84, 0.25);
+}
+
+.nestjs {
+  border: 2px solid rgb(255, 65, 84);
+}
+.nestjs:hover {
   background: rgba(255, 65, 84, 0.25);
 }
 

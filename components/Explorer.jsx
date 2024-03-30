@@ -6,7 +6,7 @@ import styles from '../styles/Explorer.module.css';
 
 const explorerItems = [
   {
-    name: 'home.jsx',
+    name: 'index.tsx',
     path: '/',
     icon: 'react_icon.svg',
   },
@@ -24,11 +24,6 @@ const explorerItems = [
     name: 'projects.js',
     path: '/projects',
     icon: 'js_icon.svg',
-  },
-  {
-    name: 'articles.json',
-    path: '/articles',
-    icon: 'json_icon.svg',
   },
   {
     name: 'github.md',
