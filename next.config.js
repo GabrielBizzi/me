@@ -1,5 +1,10 @@
-module.exports = {
+/**
+ * @type {import('next').NextConfig}
+ */
+
+const nextConfig = {
   images: {
+    unoptimized: true,
     domains: [
       "res.cloudinary.com",
       "avatars.githubusercontent.com",
@@ -7,6 +12,6 @@ module.exports = {
       "media.licdn.com",
     ],
   },
-  target: "serverless",
-  assetPrefix: "/",
 };
+
+module.exports = nextConfig;
