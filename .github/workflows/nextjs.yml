@@ -87,7 +87,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.next/serverless/
+          path: ./.next/serverless/pages
 
   # Deployment job
   deploy:
