@@ -78,7 +78,7 @@ jobs:
           echo NEXT_PUBLIC_GITHUB_USERNAME=${NEXT_PUBLIC_GITHUB_USERNAME} >> .env.local
           cat .env.local
         env: 
-          GITHUB_API_KEY: ${{ secret_key.KEY }} 
+          GITHUB_API_KEY: ${{ secrets.API_KEY }} 
           NEXT_PUBLIC_GITHUB_USERNAME: GabrielBizzi 
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
